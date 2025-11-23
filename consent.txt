@@ -1,0 +1,8 @@
+Approved Targets:
+127.0.0.1
+localhost
+scanme.nmap.org
+testphp.vulnweb.com
+hackthissite.org
+http://httpbin.org/get
+legal pentesting sites

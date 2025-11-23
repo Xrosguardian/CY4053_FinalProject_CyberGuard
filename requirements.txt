@@ -1,0 +1,9 @@
+streamlit
+pandas
+requests
+scapy
+aiohttp
+matplotlib
+reportlab
+python-nmap
+bcrypt

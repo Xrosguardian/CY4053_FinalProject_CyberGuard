@@ -1,0 +1,68 @@
+[
+    {
+        "module": "Packet Capture",
+        "target": "Local Network",
+        "user": "Abdullah",
+        "time": "2025-11-23 15:01:41.013146",
+        "data": "Captured 10 packets",
+        "image_path": "evidence/pcap_stats_150140.png"
+    },
+    {
+        "module": "Port Scan",
+        "target": "scanme.nmap.org",
+        "user": "Abdullah",
+        "time": "2025-11-23 15:01:59.618352",
+        "data": {
+            "Port": {
+                "0": 22,
+                "1": 80
+            },
+            "State": {
+                "0": "Open",
+                "1": "Open"
+            },
+            "Service": {
+                "0": "ssh",
+                "1": "http"
+            }
+        },
+        "image_path": null
+    },
+    {
+        "module": "Load Test",
+        "target": "testphp.vulnweb.com",
+        "user": "Abdullah",
+        "time": "2025-11-23 15:02:12.866725",
+        "data": "Avg Latency: 0.0",
+        "image_path": "evidence/load_test_150212.png"
+    },
+    {
+        "module": "Load Test",
+        "target": "http://httpbin.org/get",
+        "user": "Abdullah",
+        "time": "2025-11-23 15:03:04.319224",
+        "data": "Avg Latency: 1583.8213062286377",
+        "image_path": "evidence/load_test_150304.png"
+    },
+    {
+        "module": "Web Discovery",
+        "target": "testphp.vulnweb.com",
+        "user": "Abdullah",
+        "time": "2025-11-23 15:03:27.531471",
+        "data": {
+            "URL": {
+                "0": "http://testphp.vulnweb.com/admin",
+                "1": "http://testphp.vulnweb.com/images"
+            },
+            "Status": {
+                "0": 200,
+                "1": 200
+            },
+            "Size": {
+                "0": 262,
+                "1": 377
+            }
+        },
+        "image_path": null
+    }
+]
